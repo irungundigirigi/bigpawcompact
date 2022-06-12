@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
+
+.nav {
+  height: 140px;
+  width: 100vw;
+  padding: 5px 10vw 5px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../public/elephants_banner.jpg");
+  background-color: rgb(250, 245, 224,0.6);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  color: white;
+  z-index: 10;
+  position: fixed;
+}
+.navp {
+  display: flex;
+  justify-content: flex-start;
+  flex: 6;
+  flex-direction: column;
+  justify-content: space-around ;
+  color: chocolate;
+  font-weight: bold;
+  
+
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+.logo {
+  display: flex;
+  height: 100px;
+  width: 400px;
+}
+.span{
+  margin: 10px 0;
+}
