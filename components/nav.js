@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap';
 
 
-function nav() {
+function Nav() {
   return (
     <div>
          <Navbar bg="light" variant="light">
@@ -21,4 +21,4 @@ function nav() {
   )
 }
 
-export default nav
+export default Nav

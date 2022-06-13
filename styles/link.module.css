@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+.linkHeading {
+    background-color: brown;
+    color: azure;
+    padding: 5px;
+    font-size: 13px;
+}
+.link {
+    padding-left: 5px;
+    font-size: 13px;
+}
+@media (max-width: 600px) {
+    .link {
+      font-size: 9px;
+    }
+    .linkHeading {
+        font-size: 6px;
+        padding: 1px;
+    }
+  }

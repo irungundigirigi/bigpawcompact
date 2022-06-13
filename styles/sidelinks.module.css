@@ -1,0 +1,19 @@
+.container {
+    width:auto;
+    height: fit-content;
+    position: fixed;
+    top: 190px;
+    left: 10px ;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+@media (max-width: 600px) {
+    .container {
+      left: 2px;
+      padding: 5px;
+      width: 130px;
+    }
+    
+  }
