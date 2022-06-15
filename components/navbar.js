@@ -17,9 +17,34 @@ function navbar() {
         </div>
         <p className={styles.navp}>
           <span className={styles.span}>
-          BigPaw Adventure offers you a chance to tour in a unique and authentic way. Experience East Africas natural scenery,
+          We offer you a chance to tour in a unique and authentic way. Experience East Africas natural scenery,
           rich and diverse wildlife, fresh water lakes and magnificient mountains.
           </span>
+          <div className={styles.navlinks}>
+              <div className={styles.links}>
+                <div className={styles.link}>
+                    <Link href="/expenses">Home</Link>
+                </div>
+                <div className={styles.link}>
+                    <Link href="/expenses">Hotel bookings</Link>
+                </div>
+                <div className={styles.link}>
+                    <Link href="/expenses">Nairobi car hire</Link>
+                </div>
+                <div className={styles.link}>
+                    <Link href="/expenses">Nairobi excursions</Link>
+                </div>
+                <div className={styles.link}>
+                    <Link href="/expenses">Nairobi car hire</Link>
+                </div>
+                <div className={styles.link}>
+                    <Link href="/expenses">Daily Nairobi-Arusha</Link>
+                </div>
+                <div className={styles.link}>
+                    <Link href="/expenses">Contact</Link>
+                </div>
+              </div>
+          </div>
         </p>
     </div>
   )

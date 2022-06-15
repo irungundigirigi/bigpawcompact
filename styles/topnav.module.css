@@ -1,0 +1,9 @@
+.nav {
+    background-color: brown;
+    height: 30px;
+    width: 80vw;
+    position: fixed;
+    top: 190px;
+    left: 260px;
+
+}
