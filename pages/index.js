@@ -15,7 +15,13 @@ export default function Home() {
 
       <main className={styles.main}>
       <span className={styles.topPicks}>Top picks</span>
-      <Packagecard />
+          <div className={styles. packages}>
+            <div className={styles.package}><Packagecard /></div>
+            <div className={styles.package}><Packagecard /></div>
+            <div className={styles.package}><Packagecard /></div>
+            <div className={styles.package}><Packagecard /></div>
+
+          </div>
       </main>
 
       <footer className={styles.footer}>

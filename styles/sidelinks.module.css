@@ -1,5 +1,5 @@
 .container {
-    width:auto;
+    width:29vw;
     height: calc(100vh - 170px);
     flex-wrap: wrap;
     flex-direction: row;
@@ -14,9 +14,8 @@
 }
 @media (max-width: 600px) {
     .container {
-      left: 2px;
-      padding: 5px;
-      width: 130px;
+     padding: 2px;
+     left: 2px;
     }
     
   }

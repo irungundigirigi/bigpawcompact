@@ -3,20 +3,18 @@
   padding: 0 2rem;
   position: absolute;
   top: 170px;
-  left: 300px;
-  width: 70vw;
-  height: 800px;
+  left: 25vw;
+  width: 74vw;
   padding: 10px;
-  z-index: -9;
+  z-index: -2229;
+  
 }
 
 .main {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 5px;
-  width: 100%;
   height: 100%;
   
 }
@@ -24,6 +22,15 @@
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   color: rgb(20, 112, 139);
+}
+.packages {    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.package{
+  margin: 5px;
 }
 
 .footer {
@@ -123,8 +130,9 @@
 }
 
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .container {
+    padding-right: 5px;
   }
+
+  
 }
