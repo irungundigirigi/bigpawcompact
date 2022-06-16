@@ -6,7 +6,7 @@
   left: 25vw;
   width: 74vw;
   padding: 10px;
-  z-index: -2229;
+  z-index: 4;
   
 }
 
@@ -131,7 +131,10 @@
 
 @media (max-width: 600px) {
   .container {
-    padding-right: 5px;
+    left: 30vw;
+    width: 68vw;
+    padding: 5px;
+   
   }
 
   
