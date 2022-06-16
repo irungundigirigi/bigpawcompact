@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Packagecard from '../components/card'
 
 
 export default function Home() {
@@ -13,8 +14,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
-       
+      <span className={styles.topPicks}>Top picks</span>
+      <Packagecard />
       </main>
 
       <footer className={styles.footer}>

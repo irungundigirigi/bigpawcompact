@@ -1,12 +1,15 @@
 .container {
     width:auto;
-    height: fit-content;
+    height: calc(100vh - 170px);
+    flex-wrap: wrap;
+    flex-direction: row;
     position: fixed;
     top: 170px;
     left: 10px ;
     background-color: #ffffff;
     padding: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: scroll;
 
 }
 @media (max-width: 600px) {
