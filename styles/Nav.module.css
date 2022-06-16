@@ -14,21 +14,11 @@
   background-repeat: no-repeat;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   color: white;
-  z-index: -10;
   position: fixed;
   top: 40px;
+  z-index: 4;
 }
-.navp {
-  display: flex;
-  justify-content: flex-start;
-  flex: 8;
-  flex-direction: column;
-  justify-content: space-around ;
-  
 
-  color: rgb(100, 1, 10);
-  
-}
 .span {
   display: none;
 }
