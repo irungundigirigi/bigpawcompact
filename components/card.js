@@ -6,7 +6,10 @@ import pic from '../public/3.JPG';
 function Packagecard() {
   return (
     <div className={styles.card}>
-        <Image src={pic} />
+        <Image className={styles.img} src={pic} />
+        <div className={styles.textHolder}> 
+          <span className={styles.heading}>3 Days Mara</span>
+        </div>
     </div>
   )
 }

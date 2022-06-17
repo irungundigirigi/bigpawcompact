@@ -15,7 +15,7 @@ function navbar() {
                     <Image src={Logo}></Image>
                 </div>
         </div>
-        <p className={styles.navp}>
+        <div className={styles.navp}>
           <span className={styles.span}>
           We offer you a chance to tour in a unique and authentic way. Experience East Africas natural scenery,
           rich and diverse wildlife, fresh water lakes and magnificient mountains.
@@ -45,7 +45,7 @@ function navbar() {
                 </div>
               </div>
           </div>
-        </p>
+        </div>
     </div>
   )
 }
