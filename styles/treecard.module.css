@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 .treeCard {
     width: 100%;
     height: fit-content;
@@ -13,6 +14,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
 
 }
 .bubble {
@@ -29,28 +31,7 @@
     height: 25px;
     padding: 5px;
     margin: 5px 5px 5px 0;
+    font-size: 12px;
+    line-height: 10px;
    
-}
-.bubble2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #00b4db, #0083b0);
-    border-radius: 5px;
-    width: aut;
-    height: 25px;
-    margin: 10px 10px 10px 0;
-}
-.bubble3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-    background: linear-gradient(to right, #00b4db, #0083b0);
-    border-radius: 5px;
-    width: 30%;
-    height: 25px;
-    margin: 10px 10px 10px 0;
 }
