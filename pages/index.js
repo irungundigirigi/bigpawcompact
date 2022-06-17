@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Packagecard from '../components/card'
+import Treecard from '../components/treecard'
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
             <div className={styles.package}><Packagecard /></div>
 
           </div>
+          <Treecard />
       </main>
 
       <footer className={styles.footer}>
