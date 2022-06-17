@@ -16,13 +16,6 @@ export default function Home() {
 
       <main className={styles.main}>
       <span className={styles.topPicks}>Top picks</span>
-          <div className={styles. packages}>
-            <div className={styles.package}><Packagecard /></div>
-            <div className={styles.package}><Packagecard /></div>
-            <div className={styles.package}><Packagecard /></div>
-            <div className={styles.package}><Packagecard /></div>
-
-          </div>
           <Treecard />
       </main>
 
