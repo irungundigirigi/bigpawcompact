@@ -64,4 +64,10 @@
     width: 100vw;
     
   }
+  .link {
+    margin: 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+
+  }
 }
