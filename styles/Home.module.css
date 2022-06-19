@@ -2,7 +2,7 @@
 .container {
   padding: 0 10px;
   position: absolute;
-  top: 210px;
+  top: 170px;
   left: 25vw;
   width: 74vw;
   z-index: -1;
@@ -48,6 +48,7 @@
     left: 30vw;
     width: 68vw;
     padding: 5px;
+    top: 210px;
    
   }
 

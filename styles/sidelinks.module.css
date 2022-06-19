@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     position: fixed;
-    top: 210px;
+    top: 170px;
     left: 10px ;
     background-color: #ffffff;
     padding: 20px;
@@ -17,6 +17,7 @@
       width: 30vw;
      padding: 2px;
      left: 2px;
+     top: 210px;
     }
     
   }

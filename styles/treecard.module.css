@@ -35,3 +35,11 @@
     line-height: 10px;
    
 }
+@media (min-width: 600px) {
+    .treeCard {
+      width: 30vw;
+     padding: 2px;
+     left: 2px;
+    }
+    
+  }
