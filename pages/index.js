@@ -15,7 +15,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <span className={styles.topPicks}>Top picks</span>
           <Treecard />
       </main>
 
