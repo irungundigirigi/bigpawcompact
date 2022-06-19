@@ -3,6 +3,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Packagecard from '../components/card'
 import Treecard from '../components/treecard'
+import CityTours from '../components/treecards/nairobiTours'
+
+
 
 
 export default function Home() {
@@ -16,8 +19,9 @@ export default function Home() {
 
       <main className={styles.main}>
           <Treecard />
-          <Treecard />
-          <Treecard />
+          <CityTours />
+          
+          
       </main>
 
       <footer className={styles.footer}>
