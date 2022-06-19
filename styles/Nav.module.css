@@ -59,10 +59,9 @@
   .navlinks{
     position: absolute;
     left: 0px;
-    top: 130px;
+    top: 120px;
     height: 30px;
     width: 100vw;
-    
   }
   .link {
     margin: 5px 5px;
