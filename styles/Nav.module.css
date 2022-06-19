@@ -16,7 +16,7 @@
   color: white;
   position: fixed;
   top: 40px;
-  z-index: 4;
+  z-index: 1;
 }
 
 .span {
