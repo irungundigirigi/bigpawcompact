@@ -15,7 +15,7 @@ function Treecard() {
             <div className={styles.paragraph}>
              The Masai Mara is not only home to the lions of "Big Cat Diary"
              but also the temporary residence of the 'Great Wildebeast Migration', the masai Warriors and 
-             home to some of the most luxurious safari lodges in africa.
+             home to some of the most luxurious safari lodges in Africa.
             </div>
             <div className={styles.bubbles}>
                 <div className={styles.bubble}> 3 days mara</div>
