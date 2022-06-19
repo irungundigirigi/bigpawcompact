@@ -35,9 +35,6 @@ function navbar() {
                     <Link href="/expenses">Nairobi excursions</Link>
                 </div>
                 <div className={styles.link}>
-                    <Link href="/expenses">Nairobi car hire</Link>
-                </div>
-                <div className={styles.link}>
                     <Link href="/expenses">Daily Nairobi-Arusha</Link>
                 </div>
                 <div className={styles.link}>
