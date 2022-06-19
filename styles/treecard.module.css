@@ -2,6 +2,8 @@
 .treeCard {
     width: 100%;
     height: fit-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 5px;
 }
 .content {
     padding: 10px;
@@ -28,7 +30,6 @@
     border-radius: 5px;
     min-width: 15%;
     width: auto;
-    height: 25px;
     padding: 5px;
     margin: 5px 5px 5px 0;
     font-size: 12px;

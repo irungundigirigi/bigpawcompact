@@ -1,6 +1,6 @@
 import styles from '../styles/treecard.module.css';
 import Image from 'next/image';
-import image1 from '../public/3.JPG'
+import image1 from '../public/mara.png'
 
 import React from 'react'
 
