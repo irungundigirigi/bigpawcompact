@@ -11,7 +11,7 @@
 
 .main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding: 5px;
   height: 100%;
@@ -50,6 +50,11 @@
     padding: 5px;
     top: 210px;
    
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+
   }
 
   

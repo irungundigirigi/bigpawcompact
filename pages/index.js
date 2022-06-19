@@ -16,6 +16,8 @@ export default function Home() {
 
       <main className={styles.main}>
           <Treecard />
+          <Treecard />
+          <Treecard />
       </main>
 
       <footer className={styles.footer}>
