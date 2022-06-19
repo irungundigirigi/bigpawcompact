@@ -21,9 +21,7 @@ function MtKenya() {
             <div className={styles.link}>
                 <Link href="/expenses">4 Days Naromoru Sirimon</Link>
             </div>
-            <div className={styles.link}>
-                <Link href="/expenses">The Carnivore Resturant</Link>
-            </div>
+           
         </div>
     </div>
   )
